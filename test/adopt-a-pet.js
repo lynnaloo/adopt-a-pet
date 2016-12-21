@@ -5,9 +5,9 @@ const _ = require('lodash');
 const AdoptPet = require('../lib/adopt-a-pet');
 const Pet = require('../lib/pet');
 
-describe('adopt-a-pet', function () {
-  describe('instantiation', function () {
-    it('can make a new AdoptPet', function () {
+describe('adopt-a-pet', () => {
+  describe('instantiation', () => {
+    it('can make a new AdoptPet', () => {
       const adoptPet = new AdoptPet(123, 456);
       assert(adoptPet.shelterId);
       assert(adoptPet.apiKey);
@@ -17,9 +17,9 @@ describe('adopt-a-pet', function () {
     });
   });
 
-  describe('errors', function () {
-    it('throws when passing params', function (done) {
-      assert.throws(function () {
+  describe('errors', () => {
+    it('throws when passing params', (done) => {
+      assert.throws(() => {
         new AdoptPet();
       }, Error);
 
@@ -27,16 +27,16 @@ describe('adopt-a-pet', function () {
     });
   });
 
-  describe('pet instantiation', function () {
-    it('can make a new pet object', function () {
+  describe('pet instantiation', () => {
+    it('can make a new pet object', () => {
       const pet = new Pet({ pet_id: '1234'});
       assert(pet.data);
       assert(pet.getData());
     });
   });
 
-  describe('pet images', function () {
-    it('it can handle different kinds of images', function () {
+  describe('pet images', () => {
+    it('it can handle different kinds of images', () => {
       const pet1 = new Pet({
         pet_id: '1234',
         images: [{
