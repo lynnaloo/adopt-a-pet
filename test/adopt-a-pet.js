@@ -29,9 +29,24 @@ describe('adopt-a-pet', () => {
 
   describe('pet instantiation', () => {
     it('can make a new pet object', () => {
-      const pet = new Pet({ pet_id: '1234'});
-      assert(pet.data);
+      const pet = new Pet({
+         large_results_photo_width: 51,
+         pet_id: '16981733',
+         pet_name: 'Cheshire',
+         primary_breed: 'Domestic Mediumhair',
+         size: 'large',
+         sex: 'm',
+         addr_state_code: 'VA',
+         large_results_photo_height: 200
+      });
       assert(pet.id);
+      assert(pet.imageWidth);
+      assert(pet.name);
+      assert(pet.breed);
+      assert(pet.size);
+      assert(pet.state);
+      assert(pet.imageHeight);
+      assert(pet.sex);
     });
   });
 
