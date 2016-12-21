@@ -31,7 +31,7 @@ describe('adopt-a-pet', () => {
     it('can make a new pet object', () => {
       const pet = new Pet({ pet_id: '1234'});
       assert(pet.data);
-      assert(pet.getData());
+      assert(pet.id);
     });
   });
 
@@ -55,8 +55,8 @@ describe('adopt-a-pet', () => {
         large_results_photo_width: 600,
         large_results_photo_url: 'https://s3.amazonaws.com/pet-uploads.adoptapet.com/e/c/d/242972692.jpg'
       });
-      assert.equal(pet1.getData().image_height, 329);
-      assert.equal(pet2.getData().image_height, 400);
+      assert.equal(pet1.imageHeight, 329);
+      assert.equal(pet2.imageHeight, 400);
     });
   });
 });

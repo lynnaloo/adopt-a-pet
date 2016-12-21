@@ -2,6 +2,13 @@
 
 Adopt-a-Pet API Client for Node
 
+## Setup
+
+[Get API keys](http://www.adoptapet.com/shelter/portable_pet_list_api) for your shelter:
+
+* Shelter ID
+* API Key
+
 ## Installation
 
 ```
@@ -12,7 +19,7 @@ npm install adopt-a-pet
 
 ```javascript
 const AdoptPet = require('adopt-a-pet')
-
+// Instantiate the adopt-a-pet API Client with your API keys
 const adoptPet = new AdoptPet(shelterId, apiKey)
 
 //
