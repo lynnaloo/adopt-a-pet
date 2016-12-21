@@ -41,9 +41,9 @@ adoptPet.getRandomPet()
 })
 
 //
-// Get pet details using a petId
+// Get pet details using a petId and boolean to limit details
 //
-adoptPet.getPetDetails(petId)
+adoptPet.getPetDetails(petId, true)
 .then((pet) => {
   // returns detailed pet object
   return pet;

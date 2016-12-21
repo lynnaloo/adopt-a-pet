@@ -37,7 +37,8 @@ describe('adopt-a-pet', () => {
          size: 'large',
          sex: 'm',
          addr_state_code: 'VA',
-         large_results_photo_height: 200
+         large_results_photo_height: 200,
+         pet_details_url: 'www.test.com'
       });
       assert(pet.id);
       assert(pet.imageWidth);
@@ -47,6 +48,7 @@ describe('adopt-a-pet', () => {
       assert(pet.state);
       assert(pet.imageHeight);
       assert(pet.sex);
+      assert(pet.url);
     });
   });
 
