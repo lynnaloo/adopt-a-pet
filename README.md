@@ -20,6 +20,7 @@ npm install adopt-a-pet
 ```javascript
 const AdoptPet = require('adopt-a-pet')
 // Instantiate the adopt-a-pet API Client with your API keys
+// You may also set these environment variables: SHELTER_ID and ADOPT_API_KEY
 const adoptPet = new AdoptPet(shelterId, apiKey)
 
 //
