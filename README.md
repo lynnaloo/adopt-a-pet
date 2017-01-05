@@ -6,8 +6,8 @@ Adopt-a-Pet API Client for Node
 
 [Get API keys](http://www.adoptapet.com/shelter/portable_pet_list_api) for your shelter:
 
-* Shelter ID
-* API Key
+*   Shelter ID
+*   API Key
 
 ## Installation
 

@@ -17,31 +17,20 @@ describe('adopt-a-pet', () => {
     });
 
     // integration tests
-    it.skip('it can get a pet', (next) => {
+    it.skip('it can get a pet', () => {
       const adoptPet = new AdoptPet(); // assumes environment variables
-      adoptPet.getPets()
+      return adoptPet.getPets()
       .then((pets) => {
         assert(pets);
-        next();
       });
     });
-    it.skip('it can get a random pet', (next) => {
+
+    it('it can get a random pet', () => {
       const adoptPet = new AdoptPet(); // assumes environment variables
-      adoptPet.getRandomPet()
+      return adoptPet.getRandomPet()
       .then((pet) => {
         assert(pet);
-        next();
       });
-    });
-  });
-
-  describe.skip('errors', () => {
-    it('throws when passing params', (done) => {
-      assert.throws(() => {
-        new AdoptPet();
-      }, Error);
-
-      done();
     });
   });
 
