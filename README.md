@@ -2,25 +2,30 @@
 
 Adopt-a-Pet API Client for Node
 
-## Setup
-
-[Get API keys](http://www.adoptapet.com/shelter/portable_pet_list_api) for your shelter:
-
-*   Shelter ID
-*   API Key
-
 ## Installation
 
+*   Install [Node](https://nodejs.org/)
 ```
-npm install adopt-a-pet
+npm i adopt-a-pet
+```
+
+## Setup
+
+*   [Get API keys](http://www.adoptapet.com/shelter/portable_pet_list_api) for your shelter
+*   Set API key and ShelterId to environment variables: (optional)
+
+```
+  export ADOPT_API_KEY=xxx
+  export SHELTER_ID=90641
 ```
 
 ## Usage:
 
 ```javascript
 const AdoptPet = require('adopt-a-pet')
-// Instantiate the adopt-a-pet API Client with your API keys
-// You may also set these environment variables: SHELTER_ID and ADOPT_API_KEY
+
+// Instantiate the adopt-a-pet API Client
+// Parameters are not required if environment variables are set
 const adoptPet = new AdoptPet(shelterId, apiKey)
 
 //
