@@ -1,39 +1,39 @@
 {
-	"name": "adopt-a-pet",
-	"version": "1.0.8",
-	"description": "Wrapper for Adopt-a-Pet API",
-	"keywords": [
-		"adopt-a-pet",
-		"adopt",
-		"pet",
-		"api"
-	],
-	"homepage": "https://github.com/lynnaloo/adopt-a-pet#readme",
-	"bugs": {
-		"url": "https://github.com/lynnaloo/adopt-a-pet/issues"
-	},
-	"license": "MIT",
-	"author": "Linda Nichols <lynnaloo@gmail.com>",
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/lynnaloo/adopt-a-pet.git"
-	},
-	"scripts": {
-		"test": "mocha -c",
-		"lint": "eslint . --ext .js"
-	},
-	"dependencies": {
-		"debug": "^2.4.5",
-		"lodash": "^4.17.2",
-		"request": "^2.79.0"
-	},
-	"devDependencies": {
-		"eslint": "^3.7.1",
-		"eslint-config-eta": "0.0.6",
-		"mocha": "^2.1.0"
-	},
-	"engines": {
-		"node": ">=4.0.0"
-	}
+  "name": "adopt-a-pet",
+  "version": "1.0.9",
+  "description": "Wrapper for Adopt-a-Pet API",
+  "keywords": [
+    "adopt-a-pet",
+    "adopt",
+    "pet",
+    "api"
+  ],
+  "homepage": "https://github.com/lynnaloo/adopt-a-pet#readme",
+  "bugs": {
+    "url": "https://github.com/lynnaloo/adopt-a-pet/issues"
+  },
+  "license": "MIT",
+  "author": "Linda Nichols <lynnaloo@gmail.com>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lynnaloo/adopt-a-pet.git"
+  },
+  "scripts": {
+    "test": "mocha -c",
+    "lint": "eslint . --ext .js"
+  },
+  "dependencies": {
+    "debug": "^2.4.5",
+    "lodash": "^4.17.2",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-config-eta": "0.0.6",
+    "mocha": "^2.1.0"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
 }
