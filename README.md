@@ -5,8 +5,10 @@ Adopt-a-Pet API Client for Node
 ## Installation
 
 *   Install [Node](https://nodejs.org/)
+*   Install [Yarn](https://yarnpkg.com/en/docs/install#alternatives-tab)
+
 ```
-npm i adopt-a-pet
+yarn add adopt-a-pet
 ```
 
 ## Setup
