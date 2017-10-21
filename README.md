@@ -1,5 +1,7 @@
 # Adopt-a-Pet
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lynnaloo/adopt-a-pet.svg)](https://greenkeeper.io/)
+
 Adopt-a-Pet API Client for Node
 
 ## Installation
