@@ -1,6 +1,7 @@
 # Adopt-a-Pet
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/lynnaloo/adopt-a-pet.svg)](https://greenkeeper.io/)
+[![Build Status](https://dev.azure.com/lynnaloo/adopt-a-pet/_apis/build/status/lynnaloo.adopt-a-pet?branchName=master)](https://dev.azure.com/lynnaloo/adopt-a-pet/_build/latest?definitionId=2&branchName=master)
 
 Adopt-a-Pet API Client for Node
 
